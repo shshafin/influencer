@@ -6,7 +6,6 @@
     box-sizing: border-box;
     outline: 0;
     font-family: 'Poppins', sans-serif;
-    overflow-x: hidden;
 }
 
 
@@ -123,23 +122,25 @@ hr {
     font-size: 28px;
     font-weight: 600;
 }
-.cart-content{
-   display: grid;
-   grid-template-columns: repeat(3,1fr);
-   gap: 50px;
-   align-items: center;
-   margin-left: 400px;
-   margin-right: 400px;
-   margin-top: 30px;
+
+.cart-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    align-items: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 30px;
 }
-.cart{
+
+.cart {
     border-radius: 5px;
-background: #FFF;
-box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
-padding-top: 15px;
-padding-left: 15px;
-padding-right: 15px;
-padding-bottom: 30px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 30px;
 }
 
 .cart img {
@@ -170,128 +171,149 @@ padding-bottom: 30px;
     font-weight: 700;
     letter-spacing: 0.252px;
 }
-.color{
+
+.color {
     color: rgba(224, 44, 109, 0.87);
-font-size: 16px;
-font-weight: 700;
-margin-left: 300%;
-width: 100%;
-}
-
-
-
-.feature-image img{
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 300%;
     width: 100%;
 }
-.ff{
+
+
+
+.feature-image img {
+    width: 100%;
+}
+
+.ff {
     color: #0A0826;
-font-size: 38px;
-font-weight: 700;
-width: 700px;
+    font-size: 38px;
+    font-weight: 700;
+    width: 700px;
 }
-.ee{
+
+.ee {
     color: #6C6C6C;
-font-size: 16px;
-font-weight: 700;
-line-height: 28px;
-width: 500px;
-margin: 15px 0;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    width: 500px;
+    margin: 15px 0;
 }
-.bb{
+
+.bb {
     color: #FFF;
-font-size: 16px;
-font-weight: 700;
-display: flex;
-gap: 8px;
-padding: 10px 24px;
-align-items: center;
-gap: 8px;
-background: #E02C6D;
-border: 0;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    gap: 8px;
+    padding: 10px 24px;
+    align-items: center;
+    gap: 8px;
+    background: #E02C6D;
+    border: 0;
 }
-.feature-container{
+
+.feature-container {
     display: flex;
     align-items: center;
     margin-left: 400px;
     margin-top: 50px;
     margin-bottom: 100px;
 }
-.feature-text{
+
+.feature-text {
     margin-left: 100px;
 }
 
-footer{
+footer {
     height: 240px;
     width: 100%;
     background: #0A0826;
 }
-.foot-h{
+
+.foot-h {
     color: #FFF;
-font-size: 24px;
-font-weight: 700;
-padding-top: 50px;
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 50px;
 }
-.foot-p{
+
+.foot-p {
     color: #D9DBE1;
     font-size: 14px;
     font-weight: 400;
     padding-top: 10px;
 }
-.foot-pp{
+
+.foot-pp {
     color: #D9DBE1;
-font-size: 14px;
-font-weight: 400;
-padding: 7px 0;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 7px 0;
 }
-.footer-container i{
-color: #fff;
-padding-left: 15px;
+
+.footer-container i {
+    color: #fff;
+    padding-left: 15px;
 }
-.footer-container{
+
+.footer-container {
     text-align: center;
 }
 
 
-@media  screen and (max-width:576px) {
-    .nav-container{
+@media screen and (max-width:576px) {
+    .nav-container {
         flex-direction: column;
         width: 100%;
     }
+
     .banner-container {
         flex-direction: column-reverse;
         margin-top: 10%;
     }
+
     .banner-text {
         margin-top: 40px;
         margin-left: 2px;
     }
-    .title{
+
+    .title {
         text-align: center;
     }
+
     .description {
         margin-left: 2%;
         text-align: center;
         padding: 10px 0;
     }
+
     .btn {
-margin-left: 36%;
+        margin-left: 36%;
     }
+
     .logo {
         display: grid;
-        grid-template-columns: repeat(3,1fr) ;
+        grid-template-columns: repeat(3, 1fr);
     }
-    hr{
+
+    hr {
         width: 0;
     }
+
     .head1 {
         margin-left: 26%;
         margin-top: 215px;
     }
+
     .cart-content {
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
         margin-left: 30px;
         margin-right: 30px;
     }
+
     .feature-container {
         flex-direction: column;
         margin-left: 20px;
@@ -300,24 +322,29 @@ margin-left: 36%;
 
     .feature-text {
         margin-left: 23%;
-        text-align:center;
+        text-align: center;
     }
-    .feature-image{
+
+    .feature-image {
         margin-top: 30px;
         margin-bottom: -30px;
     }
+
     .bb {
-       margin-left: 30%;
+        margin-left: 30%;
     }
+
     .ff {
-padding-right: 19%;
+        padding-right: 19%;
     }
+
     .ee {
         padding-left: 10%;
         width: 500px;
         margin-top: 15px;
         margin-bottom: 15px;
     }
+
     .feature-container {
         flex-direction: column-reverse;
     }
